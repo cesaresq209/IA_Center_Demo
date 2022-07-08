@@ -17,6 +17,7 @@ void app_main(void)
 {
     printf("Hello IA Center!\n");
     printf("Github Demo Example\n");
+    printf("LCD Integration Branch\n");
     /* Print chip information */
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);
