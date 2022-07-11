@@ -12,12 +12,17 @@
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
+#include "LCD.h"
 #include "Version.h"
 
 void app_main(void)
 {
     printf("Hello IA Center!\n");
     printf("Github Demo Example\n");
+    printf("LCD Integration Branch\n");
+
+    LCD_Init();
+    printf("LCD Initialized\n");
     /* Print chip information */
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);
