@@ -15,6 +15,10 @@
 #include "LCD.h"
 #include "Version.h"
 
+void test:function(test){
+   return 0;
+}
+
 void app_main(void)
 {
     printf("Hello IA Center!\n");
